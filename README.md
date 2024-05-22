@@ -14,7 +14,7 @@ A website designed to assist university students with resources and information.
 - **Features**: Resource directory, event calendar, user authentication
 
 [View Project Files](CTU-Buddy/)
-[View Project WebPage](simone-portfolio.infinityfreeapp.com)
+[View Project WebPage](http://simone-portfolio.infinityfreeapp.com/?i=1)
 
 ## Zoo Management System
 A system to manage various aspects of zoo operations, including animal records, employee scheduling, and visitor information.
