@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetable</title>
+    <link rel="stylesheet" href="Styles.css" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+
+  <body class="table-body">
+    <div class="content">
+      <table class="table-fill">
+        <thead>
+          <tr>
+            <td class="blank" scope="col"></td>
+            <td class="time" scope="col">
+              <time datetime="08:00">08:00</time> to
+              <time datetime="09:00">09:00</time>
+            </td>
+            <td class="time" scope="col">
+              <time datetime="09:00">09:00</time> to
+              <time datetime="10:00">10:00</time>
+            </td>
+            <td class="time" scope="col">
+              <time datetime="10:00">10:00</time> to
+              <time datetime="11:00">11:00</time>
+            </td>
+            <td class="time" scope="col">
+              <time datetime="11:00">11:00</time> to
+              <time datetime="12:00">12:00</time>
+            </td>
+            <td class="time" scope="col">
+              <time datetime="12:00">12:00</time> to
+              <time datetime="13:00">13:00</time>
+            </td>
+            <td class="time" scope="col">
+              <time datetime="13:00">13:00</time> to
+              <time datetime="14:00">14:00</time>
+            </td>
+            <td class="time" scope="col">
+              <time datetime="14:00">14:00</time> to
+              <time datetime="15:00">15:00</time>
+            </td>
+            <td class="time" scope="col">
+              <time datetime="15:00">15:00</time> to
+              <time datetime="16:00">16:00</time>
+            </td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="day">
+              MONDAY<br /><time datetime="2023-10-09">2023/10/09</time>
+            </td>
+            <td class="blank">---</td>
+            <td class="RD"><abbr title="Robotic Development">RD412</abbr></td>
+            <td class="RD"><abbr title="Robotic Development">RD412</abbr></td>
+            <td class="RD"><abbr title="Robotic Development">RD412</abbr></td>
+            <td rowspan="6">L<br />U<br />N<br />C<br />H</td>
+            <td class="CWD">
+              <abbr title="Core Web Development">CWD412</abbr>
+            </td>
+            <td class="CWD">
+              <abbr title="Core Web Development">CWD412</abbr>
+            </td>
+            <td class="CWD">
+              <abbr title="Core Web Development">CWD412</abbr>
+            </td>
+          </tr>
+          <tr>
+            <td class="day">
+              TUESDAY<br /><time datetime="2023-10-10">2023/10/10</time>
+            </td>
+            <td class="blank">---</td>
+            <td class="RD"><abbr title="Robotic Development">RD412</abbr></td>
+            <td class="RD"><abbr title="Robotic Development">RD412</abbr></td>
+            <td class="RD"><abbr title="Robotic Development">RD412</abbr></td>
+            <td class="blank">---</td>
+            <td class="blank">---</td>
+            <td class="blank">---</td>
+          </tr>
+          <tr>
+            <td class="day">
+              WEDNESDAY<br /><time datetime="2023-10-11">2023/10/11</time>
+            </td>
+            <td class="ENA">
+              <abbr title="Ethics and Network Architecture">ENA412</abbr>
+            </td>
+            <td class="ENA">
+              <abbr title="Ethics and Network Architecture">ENA412</abbr>
+            </td>
+            <td class="ENA">
+              <abbr title="Ethics and Network Architecture">ENA412</abbr>
+            </td>
+            <td class="ENA">
+              <abbr title="Ethics and Network Architecture">ENA412</abbr>
+            </td>
+            <td colspan="3" class="prac">PRACTICAL</td>
+          </tr>
+          <tr>
+            <td class="day">
+              THURSDAY<br /><time datetime="2023-10-12">2023/10/12</time>
+            </td>
+            <td class="blank">---</td>
+            <td class="ENA">
+              <abbr title="Ethics and Network Architecture">ENA412</abbr>
+            </td>
+            <td class="ENA">
+              <abbr title="Ethics and Network Architecture">ENA412</abbr>
+            </td>
+            <td class="ENA">
+              <abbr title="Ethics and Network Architecture">ENA412</abbr>
+            </td>
+            <td class="CWD">
+              <abbr title="Core Web Development">CWD412</abbr>
+            </td>
+            <td class="CWD">
+              <abbr title="Core Web Development">CWD412</abbr>
+            </td>
+            <td class="CWD">
+              <abbr title="Core Web Development">CWD412</abbr>
+            </td>
+          </tr>
+          <tr>
+            <td class="day">
+              FRIDAY<br /><time datetime="2023-10-13">2023/10/13</time>
+            </td>
+            <td class="blank">---</td>
+            <td class="CF"><abbr title="Cloud Fundamentals">CF412</abbr></td>
+            <td class="CF"><abbr title="Cloud Fundamentals">CF412</abbr></td>
+            <td class="CF"><abbr title="Cloud Fundamentals">CF412</abbr></td>
+            <td class="blank">---</td>
+            <td class="blank">---</td>
+            <td class="blank">---</td>
+          </tr>
+          <tr>
+            <td class="day">
+              SATURDAY<br /><time datetime="2023-10-14">2023/10/14</time>
+            </td>
+            <td class="blank">---</td>
+            <td colspan="3" class="prac">PRACTICAL</td>
+            <td class="CF"><abbr title="Cloud Fundamentals">CF412</abbr></td>
+            <td class="CF"><abbr title="Cloud Fundamentals">CF412</abbr></td>
+            <td class="CF"><abbr title="Cloud Fundamentals">CF412</abbr></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <nav class="top-navbar">
+        <div class="logo-container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="Images/univeristyLogo.png" alt="Logo" class="logo" />
+            </a>
+          </div>
+        </div>
+        <ul>
+          <li>
+            <a href="index.html" class="top-navbar-button">Home Page</a>
+          </li>
+          <li>
+            <a href="Timetable.html" class="top-navbar-button">Timetable</a>
+          </li>
+          <li>
+            <a href="Discussion.html" class="top-navbar-button">Discussion</a>
+          </li>
+          <li>
+            <a href="Share Resources.html" class="top-navbar-button"
+              >Share Resources</a
+            >
+          </li>
+          <li>
+            <a href="About Us.html" class="top-navbar-button">About Us</a>
+          </li>
+          <li>
+            <a href="Contact us.html" class="top-navbar-button">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="contain">
+          <div class="col">
+            <h1>CTU-Buddy</h1>
+            <ul>
+              <a href="index.html"><li>Home Page</li></a>
+              <a href="Discussion.html"><li>Discussion</li></a>
+              <a href="Share Resources.html"><li>Share Resources</li></a>
+              <a href="About Us.html"><li>About Us</li></a>
+              <a href="Contact us.html"><li>Contact Us</li></a>
+            </ul>
+          </div>
+          <div class="col social">
+            <h1>Social</h1>
+            <ul>
+              <li>
+                <img src="Images/Facebook.png" width="32" style="width: 32px" />
+              </li>
+              <li>
+                <img
+                  src="Images/Instagram.png"
+                  width="32"
+                  style="width: 32px"
+                />
+              </li>
+              <li>
+                <img src="Images/Twitter.png" width="32" style="width: 32px" />
+              </li>
+            </ul>
+          </div>
+          <div><p>&copy; Created by Novotech 2023</p></div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

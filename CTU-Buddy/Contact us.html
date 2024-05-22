@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Styles.css" type="text/css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCYODsx9qm9N88tScfCZU_EgvsGMoXszA&callback=initMap&libraries=&v=weekly" defer></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+
+
+  <body>
+    <nav class="top-navbar">
+      <div class="logo-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="Images/univeristyLogo.png" alt="Logo" class="logo" />
+          </a>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <a href="index.html" class="top-navbar-button">Home Page</a>
+        </li>
+        <li>
+          <a href="Timetable.html" class="top-navbar-button">Timetable</a>
+        </li>
+        <li>
+          <a href="Discussion.html" class="top-navbar-button">Discussion</a>
+        </li>
+        <li>
+          <a href="Share Resources.html" class="top-navbar-button"
+            >Share Resources</a
+          >
+        </li>
+        <li>
+          <a href="About Us.html" class="top-navbar-button">About Us</a>
+        </li>
+        <li>
+          <a href="Contact us.html" class="top-navbar-button">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Contact us form -->
+  
+    <div class="content">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <h4 style="text-align: center">We'd love to hear from you!</h4>
+      </div>
+      <div class="row input-container">
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <input type="text" required />
+            <label>Name</label>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input">
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input" style="float: right">
+            <input type="text" required />
+            <label>Phone Number</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <div>
+          <button class="custom-btn btn">Submit</button>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <h1 style="text-align: center">Where we are located <br></h1>
+    </div>
+
+    <div class="maps-container">
+    <iframe src="https://storage.googleapis.com/maps-solutions-8oddh1q1xw/locator-plus/705n/locator-plus.html" width="100%" height="100%" style="border:0;" loading="lazy"></iframe>
+    </div>
+    <!-- <div id="gmp-map"></div> -->
+
+    <footer>
+      <div class="footer">
+        <div class="contain">
+          <div class="col">
+            <h1>CTU-Buddy</h1>
+            <ul>
+              <a href="index.html"><li>Home Page</li></a>
+              <a href="Timetable.html"><li>Timetable</li></a>
+              <a href="Discussion.html"><li>Discussion</li></a>
+              <a href="Share Resources.html"><li>Share Resources</li></a>
+              <a href="About Us.html"><li>About Us</li></a>
+            </ul>
+          </div>
+          <div class="col social">
+            <h1>Social</h1>
+            <ul>
+              <li>
+                <img src="Images/Facebook.png" width="32" style="width: 32px" />
+              </li>
+              <li>
+                <img
+                  src="Images/Instagram.png"
+                  width="32"
+                  style="width: 32px"
+                />
+              </li>
+              <li>
+                <img src="Images/Twitter.png" width="32" style="width: 32px" />
+              </li>
+            </ul>
+          </div>
+          <div><p>&copy; Created by Novotech 2023</p></div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      "use strict";
+
+      function initMap() {
+        const myLatLng = {
+          lat: -25.783000946044922,
+          lng: 28.279029846191406
+        };
+        const map = new google.maps.Map(document.getElementById("gmp-map"), {
+          zoom: 14,
+          center: myLatLng,
+          fullscreenControl: false,
+          zoomControl: true,
+          streetViewControl: false
+        });
+        new google.maps.Marker({
+          position: myLatLng,
+          map,
+          title: "My location"
+        });
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Share Resources</title>
+    <link rel="stylesheet" href="Styles.css" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+  <body>
+  
+    <div class="content"></div>
+    <header>
+      <h1>Welcome to the College File Upload Portal</h1>
+  </header>
+
+  <!-- <form action="upload.php" method="post" enctype="multipart/form-data">
+    <div class="upload-file-container">
+        <label for="file-input" class="upload-file-text">Drag & Drop or Choose a File:</label>
+        <input type="file" id="file-input" name="uploadedFile" class="file-input" style="display: none;" onchange="displaySelectedFileName()" />
+        <div class="file-preview">
+            <span class="file-preview-text">No file selected</span>
+        </div>
+        <button type="submit" class="custom-btn btn">Upload</button>
+    </div>
+</form> -->
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  <div class="centered-container">
+    <div class="upload-file-container" id="upload-container" onclick="document.getElementById('file-input').click();">
+      <label for="file-input" class="upload-file-text">Choose a File:</label>
+      <input type="file" id="file-input" name="uploadedFile" class="file-input" style="display: none;" onchange="displaySelectedFileName()" />
+      <div class="file-preview">
+        <span class="file-preview-text">No file selected</span>
+      </div>
+    </div>
+    <button type="submit" class="custom-btn btn" style="margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);">Upload</button>
+  </div>
+</form>
+
+    <div>
+      <nav class="top-navbar">
+        <div class="logo-container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="Images/univeristyLogo.png" alt="Logo" class="logo" />
+            </a>
+          </div>
+        </div>
+        <ul>
+          <li>
+            <a href="index.html" class="top-navbar-button">Home Page</a>
+          </li>
+          <li>
+            <a href="Timetable.html" class="top-navbar-button">Timetable</a>
+          </li>
+          <li>
+            <a href="Discussion.html" class="top-navbar-button">Discussion</a>
+          </li>
+          <li>
+            <a href="Share Resources.html" class="top-navbar-button"
+              >Share Resources</a
+            >
+          </li>
+          <li>
+            <a href="About Us.html" class="top-navbar-button">About Us</a>
+          </li>
+          <li>
+            <a href="Contact us.html" class="top-navbar-button">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="contain">
+          <div class="col">
+            <h1>CTU-Buddy</h1>
+            <ul>
+              <a href="index.html"><li>Home Page</li></a>
+              <a href="Timetable.html"><li>Timetable</li></a>
+              <a href="Discussion.html"><li>Discussion</li></a>
+              <a href="About Us.html"><li>About Us</li></a>
+              <a href="Contact us.html"><li>Contact Us</li></a>
+            </ul>
+          </div>
+          <div class="col social">
+            <h1>Social</h1>
+            <ul>
+              <li>
+                <img src="Images/Facebook.png" width="32" style="width: 32px" />
+              </li>
+              <li>
+                <img
+                  src="Images/Instagram.png"
+                  width="32"
+                  style="width: 32px"
+                />
+              </li>
+              <li>
+                <img src="Images/Twitter.png" width="32" style="width: 32px" />
+              </li>
+            </ul>
+          </div>
+          <div><p>&copy; Created by Novotech 2023</p></div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function displaySelectedFileName() {
+          const fileInput = document.getElementById("file-input");
+          const filePreviewText = document.querySelector(".file-preview-text");
+  
+          if (fileInput.files.length > 0) {
+              filePreviewText.textContent = fileInput.files[0].name;
+          } else {
+              filePreviewText.textContent = "No file selected";
+          }
+      }
+  
+      function uploadFile() {
+          const fileInput = document.getElementById("file-input");
+          const selectedFile = fileInput.files[0];
+  
+          if (selectedFile) {
+              const formData = new FormData();
+              formData.append("uploadedFile", selectedFile);
+  
+              fetch("upload.php", {
+                  method: "POST",
+                  body: formData
+              })
+              .then(response => response.text())
+              .then(result => {
+                  alert(result); 
+              })
+              .catch(error => {
+                  console.error("Error:", error);
+              });
+          } else {
+              alert("Please select a file to upload.");
+          }
+      }
+  </script>
+  </body>
+</html>
