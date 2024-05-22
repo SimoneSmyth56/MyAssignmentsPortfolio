@@ -29,7 +29,7 @@ A system to manage various aspects of zoo operations, including animal records, 
 - **Technologies Used**: HTML,CSS
 - **Features**:
   
-<a href="http://simone-portfolio.infinityfreeapp.com/?i=1" target="_blank">View Project WebPage</a>
+<a href= "http://simone-portfolio.infinityfreeapp.com/?i=1" target= "_blank" > View Project WebPage</a>
 
 ## Inventory System
 An application for tracking inventory in a warehouse, including stock levels, order processing, and supplier management.
