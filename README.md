@@ -15,14 +15,12 @@ A website designed to assist university students with resources and information.
 
 [View Project Files](CTU-Buddy/)
 
-
-
 ## Zoo Management System
 A system to manage various aspects of zoo operations, including animal records, employee scheduling, and visitor information.
 - **Technologies Used**: C#, SQL Server, WPF
 - **Features**: Animal tracking, employee management, visitor statistics
 
-[View Project Files](ZooManagementSystem/)
+[View Project Files] (ZooManagementSystem/)
 
 ## Personal Portfolio Website
 
@@ -36,4 +34,4 @@ An application for tracking inventory in a warehouse, including stock levels, or
 - **Technologies Used**: Python, SQLite, Flask
 - **Features**: Inventory tracking, order management, supplier database
 
-[View Project Files](InventorySystem/)
+[View Project Files] (InventorySystem/)
