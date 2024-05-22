@@ -1,0 +1,13 @@
+From: librarymanagement@outlook.com 
+To: john.s@yahoo.com
+Subject: Overdue Fine Notice
+
+Dear John Smith,
+
+The current fine amount is: R142190
+
+Please return the book or make a payment at your earliest convenience.
+
+Sincerely,
+The Library
+

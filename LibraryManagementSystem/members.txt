@@ -1,0 +1,10 @@
+1;John;Smith;john.s@yahoo.com;142190
+2;Alice;Johnson;alice.johnson@example.com;0
+3;Michael;Brown;michael.brown@example.com;0
+4;Emily;Rodriguez;emily.rodriguez@example.com;0
+5;Daniel;Martinez;daniel.martinez@example.com;0
+6;Olivia;Davis;olivia.davis@example.com;0
+7;William;Wilson;william.wilson@example.com;0
+8;Sophia;Taylor;sophia.taylor@example.com;0
+9;James;Anderson;james.anderson@example.com;0
+10;Isabella;Thomas;isabella.thomas@example.com;0
