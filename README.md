@@ -13,7 +13,8 @@ A website designed to assist university students with resources and information.
 - **Technologies Used**: HTML, CSS, JavaScript, PHP, MySQL
 - **Features**: Resource directory, event calendar, user authentication
 
-[View Project Files](CTU-Buddy-Website/)
+[View Project Files](CTU-Buddy/)
+[View Project WebPage](simone-portfolio.infinityfreeapp.com)
 
 ## Zoo Management System
 A system to manage various aspects of zoo operations, including animal records, employee scheduling, and visitor information.
@@ -21,7 +22,7 @@ A system to manage various aspects of zoo operations, including animal records, 
 - **Features**: Animal tracking, employee management, visitor statistics
 
 [View Project Files](ZooManagementSystem/)
-[View Project WebPage] (simone-portfolio.infinityfreeapp.com)
+
 
 ## Inventory System
 An application for tracking inventory in a warehouse, including stock levels, order processing, and supplier management.
