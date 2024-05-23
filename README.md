@@ -25,7 +25,7 @@ The Virtual Zoo Management System is GUI program designed to manage animals in a
 ### Project Overview
 The goal of this project is to create a personal website that serves as an online portfolio, highlighting your skills, projects, education, and work experience.
 
-[View Project Files](PersonalPortfilioWebsite/)
+[View Project Files](PersonalPortfolioWebsite/)
 
 [View Project Website](http://simone-portfolio.infinityfreeapp.com/?i=1) Right click to open in new tab
 
