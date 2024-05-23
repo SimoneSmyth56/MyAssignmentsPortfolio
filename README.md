@@ -40,42 +40,41 @@ An application for managing inventory, sales, and returns for CTU Tech's central
   * Sales management
   * Return processing
   * Shop management
-  * Project Overview
-    
+
+### Project Overview    
 As a developer at CTU Tech, I was tasked with creating an inventory management system to streamline operations across the company's four retail locations, all supplied by a central warehouse.
 
-Requirements
-Project Structure:
+**Requirements** 
+- Project Structure:
+   * Main application and class definition separated into ctuMain.py and ctuClass.py.
+     
+- Class Definition:
+   * Class ctuStock with attributes: shopName, shopLocation, customers, sales, and returns.
+   * Four instances of ctuStock representing the four shops, initialized with default values.
 
-Main application and class definition separated into ctuMain.py and ctuClass.py.
-Class Definition:
+- User Interaction:
+   * Continuous user input with a main menu offering options for Shop Management, Sales, Returns, Stock, and Exit.
 
-Class ctuStock with attributes: shopName, shopLocation, customers, sales, and returns.
-Four instances of ctuStock representing the four shops, initialized with default values.
-User Interaction:
+- Shop Management:
+ * Change shop name
+ * Change shop location
+ * Display current shops
+ * Display all shop information
 
-Continuous user input with a main menu offering options for Shop Management, Sales, Returns, Stock, and Exit.
-Shop Management:
+- Sales Management:
+ * Display available items for sale
+ * Select items and quantities, specify the shop
+ * Update shop’s customer count, sales count, and stock levels
 
-Change shop name
-Change shop location
-Display current shops
-Display all shop information
-Sales Management:
+- Returns Management:
+  * Prompt for item returns and quantities, specify the shop
+  * Adjust shop’s returns and sales counts
 
-Display available items for sale
-Select items and quantities, specify the shop
-Update shop’s customer count, sales count, and stock levels
-Returns Management:
+- Stock Management:
+ * Display stock items, prices, and quantities
+ * Add new stock items with prices and quantities
 
-Prompt for item returns and quantities, specify the shop
-Adjust shop’s returns and sales counts
-Stock Management:
-
-Display stock items, prices, and quantities
-Add new stock items with prices and quantities
-Exit:
-
-Close the application
+- Exit:
+ * Close the application
 
 [View Project Files] (Sales & Inventory System/)
