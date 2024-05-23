@@ -77,4 +77,4 @@ As a developer at CTU Tech, I was tasked with creating an inventory management s
 - Exit (option 99):
    * Close the application
 
-[View Project Files] (Sales & Inventory System/)
+[View Project Files](Sales&Inventory System/)
