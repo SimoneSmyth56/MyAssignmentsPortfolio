@@ -19,7 +19,7 @@ The Virtual Zoo Management System is GUI program designed to manage animals in a
 
 ## Personal Portfolio Website
 
-- **Technologies Used**: Visual Studio Code - HTML,CSS & JavaScript
+- **Technologies Used**: Visual Studio Code - HTML, CSS & JavaScript
 - **Features**: Responsive design, interactive elements, contact form
 
 ### Project Overview
