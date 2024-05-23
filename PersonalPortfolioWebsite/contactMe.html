@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="icon" type="icon" href="images_documents/Logo3.png">
+
+<!-- CSS File -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+
+      <!-- Navbar Start -->
+      <div class="aside">
+        <div class="logo">
+          <a href="index.html"><span>S</span>imone</a>
+        </div>
+        <div class="nav-toggle">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="index.html" class="active"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="aboutMe.html"><i class="fa fa-user"></i>About me</a>
+          </li>
+          <li>
+            <a href="services.html"><i class="fa fa-list"></i>Services</a>
+          </li>
+          <li>
+            <a href="portfolio.html"><i class="fa fa-briefcase"></i>Portfolio</a>
+          </li>
+          <li>
+            <a href="contactMe.html"><i class="fa fa-comments"></i>Contact me</a>
+          </li>
+        </ul>
+      </div>
+      <!-- NavBar End -->
+    </div>
+
+    <div class="small-screen-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutMe.html">About me</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contactMe.html">Contact me</a></li>
+      </ul>
+    </div>
+
+<!--Contact Me Start-->
+
+    <div class="main-content">
+      <section class="contact section">
+        <div class="container">
+          <div class="section-title padd-15">
+            <h2>Contact Me</h2>
+          </div>
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xrgwvokl" method="POST" class="form">
+              <div class="form-group">
+
+                <label>First Name</label>
+                <input type="text" id="firstname" placeholder="John" required>
+              </div>
+              
+              <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" name="lastname" placeholder="Doe" required>
+              </div>
+              
+              <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" id="phone" placeholder="072 123 4567" required>
+              </div>
+              
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="email"  placeholder="someone@gmail.com" required>
+              </div>
+              
+              <div class="form-group">
+                <label>Your Message</label><br>
+                <textarea id="message" rows="10" placeholder="Type your message here" required></textarea>
+              </div>
+              
+              <div class="submit-btn">
+                <input type="submit" class="btn">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+<!--Contact Me End-->
+
+<!-- Footer Begin -->
+
+    <div class="footer">
+      <p>Made with <img src="images_documents/Logo3.png" alt=""> by Simone Smyth</p>
+    
+    </div>
+
+<!-- Footer End -->
+
+<!-- JavaScript files -->
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
