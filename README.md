@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src= "https://media.giphy.com/media/SUcApSWjPwQMARvcM8/giphy.gif" width="100"/>
+  <img src= "https://media.giphy.com/media/NgurY1o4z080Jfoyzw/giphy.gif?cid=ecf05e47zs6z2wvj6mspvzisa8dd5w7awt24wxhpodsk64sy&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="100"/>
 </div>
 
 # My Assignments Portfolio
