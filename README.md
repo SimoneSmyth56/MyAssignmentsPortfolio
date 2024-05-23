@@ -32,17 +32,11 @@ A system to manage various aspects of zoo operations, including animal records, 
 [View Project Website](http://simone-portfolio.infinityfreeapp.com/?i=1) Right click to open in new tab
 
 ## Sales & Inventory System
-An application for managing inventory, sales, and returns for CTU Tech's central warehouse and its four retail shops across the country.
 
 - **Technologies Used**: Python
-- **Features**:
-- Inventory tracking
-  * Sales management
-  * Return processing
-  * Shop management
 
 ### Project Overview    
-As a developer at CTU Tech, I was tasked with creating an inventory management system to streamline operations across the company's four retail locations, all supplied by a central warehouse.
+Create an inventory management system to streamline inventory, sales, and returns for CTU Tech's central warehouse and its four retail shops across the country.
 
 **Requirements** 
 - Project Structure:
