@@ -31,9 +31,51 @@ A system to manage various aspects of zoo operations, including animal records, 
 
 [View Project Website](http://simone-portfolio.infinityfreeapp.com/?i=1) Right click to open in new tab
 
-## Inventory System
-An application for tracking inventory in a warehouse, including stock levels, order processing, and supplier management.
-- **Technologies Used**: Python, SQLite, Flask
-- **Features**: Inventory tracking, order management, supplier database
+## Sales & Inventory System
+An application for managing inventory, sales, and returns for CTU Tech's central warehouse and its four retail shops across the country.
 
-[View Project Files] (InventorySystem/)
+- **Technologies Used**: Python
+- **Features**:
+- Inventory tracking
+  * Sales management
+  * Return processing
+  * Shop management
+  * Project Overview
+    
+As a developer at CTU Tech, I was tasked with creating an inventory management system to streamline operations across the company's four retail locations, all supplied by a central warehouse.
+
+Requirements
+Project Structure:
+
+Main application and class definition separated into ctuMain.py and ctuClass.py.
+Class Definition:
+
+Class ctuStock with attributes: shopName, shopLocation, customers, sales, and returns.
+Four instances of ctuStock representing the four shops, initialized with default values.
+User Interaction:
+
+Continuous user input with a main menu offering options for Shop Management, Sales, Returns, Stock, and Exit.
+Shop Management:
+
+Change shop name
+Change shop location
+Display current shops
+Display all shop information
+Sales Management:
+
+Display available items for sale
+Select items and quantities, specify the shop
+Update shop’s customer count, sales count, and stock levels
+Returns Management:
+
+Prompt for item returns and quantities, specify the shop
+Adjust shop’s returns and sales counts
+Stock Management:
+
+Display stock items, prices, and quantities
+Add new stock items with prices and quantities
+Exit:
+
+Close the application
+
+[View Project Files] (Sales & Inventory System/)
