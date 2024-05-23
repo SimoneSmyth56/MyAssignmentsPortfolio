@@ -8,19 +8,46 @@ A comprehensive system for managing a library's book inventory, member registrat
 
 [View Project Files](LibraryManagementSystem/)
 
-## CTU Buddy Website
-A website designed to assist university students with resources and information.
-- **Technologies Used**: HTML, CSS, JavaScript, PHP, MySQL
-- **Features**: Resource directory, event calendar, user authentication
-
-[View Project Files](CTU-Buddy/)
-
 ## Zoo Management System
 A system to manage various aspects of zoo operations, including animal records, employee scheduling, and visitor information.
 - **Technologies Used**: C#, SQL Server, WPF
 - **Features**: Animal tracking, employee management, visitor statistics
 
 [View Project Files] (ZooManagementSystem/)
+
+## CTU Buddy Website
+- **Technologies Used**: HTML, CSS & JavaScript
+  
+### Project Overview   
+CTU-Buddy was designed to be a comprehensive and interactive educational system for City Technical University (CTU). The objective was to create a user-friendly platform that facilitates academic success and enhances the overall learning environment.
+
+**Requirements**
+- Home Page:
+  * Serves as the central hub with an engaging interface using images, videos, and animations.
+  * Display relevant information about the system and highlight key features.
+  * Includes a footer on all pages for convenient navigation.
+    
+- Timetable Page:
+  * Help students manage their schedules effectively with a user-friendly timetable.
+  * Use HTML tables and CSS to display dates, times, modules, and days of the week.
+  * Ensure responsive design for seamless functionality across different devices.
+    
+- About Us Page:
+  * Provide insights into CTU-Buddy and the development team.
+
+- Contact Us Page:
+  * Integrates a contact form for inquiries, suggestions, or feedback.
+  * Include a subscription form for users to provide their email addresses.
+  * Display a map showcasing the location of the CTU campus.
+    
+- Share Resources Page:
+  * Allow students to upload and share educational resources in PDF format.
+  * Enable users to download uploaded resources for offline access.
+
+- Discussion Page:
+  * Allow users to post questions related to their studies and receive responses.
+
+[View Project Files](CTU-Buddy/)
 
 ## Personal Portfolio Website
 
