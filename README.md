@@ -49,32 +49,32 @@ As a developer at CTU Tech, I was tasked with creating an inventory management s
    * Main application and class definition separated into ctuMain.py and ctuClass.py.
      
 - Class Definition:
-   * Class ctuStock with attributes: shopName, shopLocation, customers, sales, and returns.
+   * Class ctuStock with attributes: shopName, shopLocation, customers, sales and returns.
    * Four instances of ctuStock representing the four shops, initialized with default values.
 
 - User Interaction:
    * Continuous user input with a main menu offering options for Shop Management, Sales, Returns, Stock, and Exit.
 
-- Shop Management:
- * Change shop name
- * Change shop location
- * Display current shops
- * Display all shop information
+- Shop Management (option 1):
+   * Change shop name
+   * Change shop location
+   * Display current shops
+   * Display all shop information
 
-- Sales Management:
- * Display available items for sale
- * Select items and quantities, specify the shop
- * Update shop’s customer count, sales count, and stock levels
+- Sales Management (option 2):
+   * Display available items for sale
+   * Select items and quantities, specify the shop
+   * Update shop’s customer count, sales count, and stock levels
 
-- Returns Management:
-  * Prompt for item returns and quantities, specify the shop
-  * Adjust shop’s returns and sales counts
+- Returns Management (option 3):
+   * Prompt for item returns and quantities, specify the shop
+   * Adjust shop’s returns and sales counts
 
-- Stock Management:
- * Display stock items, prices, and quantities
- * Add new stock items with prices and quantities
+- Stock Management (option 5):
+   * Display stock items, prices, and quantities
+   * Add new stock items with prices and quantities
 
-- Exit:
- * Close the application
+- Exit (option 99):
+   * Close the application
 
 [View Project Files] (Sales & Inventory System/)
