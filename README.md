@@ -1,6 +1,10 @@
 <div id="header" align="center">
   <img src= "https://media.giphy.com/media/NgurY1o4z080Jfoyzw/giphy.gif?cid=ecf05e47zs6z2wvj6mspvzisa8dd5w7awt24wxhpodsk64sy&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="100"/>
 </div>
+<h1 align="center">
+  hey there 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
 
 # My Assignments Portfolio
 This repository contains a collection of my assignments.
